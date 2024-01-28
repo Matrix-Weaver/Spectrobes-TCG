@@ -9,11 +9,14 @@ namespace SpectrobesTCG
         public CardManager.CardType type;
 
         private readonly string cardFrontString = "Scaler/CardBackSprite/CardFront";
-        private CardManager cardManager;
-        private GameManager gameManager;
+        private CardManager cardManagerInstance;
+        private GameManager gameManagerInstance;
         private GameManager.PlayerIds controllerId;
         private GameManager.PlayerIds ownerId;
-        private List<GameManager.PlayerIds> playerVisibilityIds = new List<GameManager.PlayerIds>();
+        /// <summary>
+        /// Controls who can see the front side of a card when calling <see cref="ApplyCardVisibility"/>>
+        /// </summary>
+        private readonly List<GameManager.PlayerIds> playerVisibilityIds = new List<GameManager.PlayerIds>();
         private string title;
 
         public void Initialize(GameManager.PlayerIds playerId)
@@ -21,8 +24,8 @@ namespace SpectrobesTCG
             ownerId = playerId;
             controllerId = playerId;
 
-            gameManager = GameManager.instance;
-            cardManager = CardManager.instance;
+            gameManagerInstance = GameManager.instance;
+            cardManagerInstance = CardManager.instance;
 
             ApplyCardVisibility();
         }
@@ -55,16 +58,16 @@ namespace SpectrobesTCG
             playerVisibilityIds.Add(playerId);
             ApplyCardVisibility();
         }
-        public void ApplyCardVisibility()
-        {
-            if (playerVisibilityIds.Contains(gameManager.clientId)) ShowCardFront();
-            else ShowCardBack();
-
-        }
         public void PurgePlayerVisibilityIds()
         {
             playerVisibilityIds.Clear();
             ApplyCardVisibility();
+        }
+        private void ApplyCardVisibility()
+        {
+            if (playerVisibilityIds.Contains(gameManagerInstance.clientId)) ShowCardFront();
+            else ShowCardBack();
+
         }
         public void ShowCardFront() { transform.Find(cardFrontString).gameObject.SetActive(true); }
         public void ShowCardBack() { transform.Find(cardFrontString)?.gameObject.SetActive(false); }
