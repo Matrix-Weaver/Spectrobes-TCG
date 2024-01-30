@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -22,7 +23,7 @@ namespace SpectrobesTCG
         private PlayerManager currentPlayer;
 
         // Start is called before the first frame update
-        void Start()
+        IEnumerator Start()
         {
             instance = this;
             for (int i = 0; i < 2; i++)
@@ -44,7 +45,8 @@ namespace SpectrobesTCG
                         break;
                 }
             }
-            StartGame();
+            yield return new WaitForSeconds(1);
+            StartCoroutine(StartGame());
         }
 
         // Update is called once per frame
@@ -66,12 +68,13 @@ namespace SpectrobesTCG
             return players[r];
         }
 
-        private void StartGame()
+        IEnumerator StartGame()
         {
             for (int i = 0; i < players.Count; i++)
             {
                 StartCoroutine(players[i].DrawCards(7));
             }
+            yield return new WaitForSeconds(1);
             currentPlayer = GetRandomPlayerManager();
             currentPlayer.StartTurn();
         }

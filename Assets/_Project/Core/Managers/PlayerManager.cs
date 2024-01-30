@@ -30,7 +30,7 @@ namespace SpectrobesTCG
             exileZone = new CardZone(id);
             phasedOutZone = new CardZone(id);
             /*
-                TODO boardZone needs to be separated into 2 different zones (bench and active)
+                TODO boardZone needs to be separated into 2 different zones (bench and team)
                 TODO Will require work to set up those zones in the scene
             */
             boardZone = new CardZone(id, CardZone.GroupingType.horizontal, cardListTransforms["deck"]);
@@ -74,7 +74,7 @@ namespace SpectrobesTCG
 
         public void StartTurn()
         {
-            DrawCards(1);
+            gameManagerInstance.StartCoroutine((DrawCards(1)));
         }
 
         public void EndTurn()
