@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Card Art
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 285053a7419be5245a1c6e5c647101db, type: 3}
+    - {fileID: 102900000, guid: e88044be4867cc541b256fd9ace8acf3, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 5211932279129384656, guid: 2ed7abd03c1577044bbd664dc2f65648, type: 3}
+  - {fileID: 7432778795381297020, guid: 4ca52c4b88cdb524b99380795ac3c53d, type: 3}
+  - {fileID: -603989586284366352, guid: 8db8e87c3b0a41942a40c7abf23a09f7, type: 3}
+  - {fileID: 4181375740416486310, guid: 32eb91ec31029d64896fa95d244a673b, type: 3}
+  - {fileID: -6578892327267529403, guid: a90e624d18145f14484619757cfefe11, type: 3}
+  - {fileID: -5267938533852694876, guid: 12494aedf279a794e9506f85e8b44a1b, type: 3}
+  - {fileID: 5772521382871447196, guid: c067f87f9600392439076bc848274469, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - F8cCeojXwAAK4zD_0
+  - F4prwF_W0AAREfY_0
+  - Corona_0
+  - F_jbRxKW4AAdGj6_0
+  - Flash_0
+  - Aurora_0
+  - export_6_0
+  m_RenderDataMap: {}
+  m_Tag: Card Art
+  m_IsVariant: 0
