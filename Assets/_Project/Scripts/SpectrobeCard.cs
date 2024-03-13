@@ -15,6 +15,8 @@ namespace SpectrobesTCG
         public int attack;
         public int hp;
 
+
+
         // Start is called before the first frame update
         void Start()
         {

@@ -62,6 +62,8 @@
     <Compile Include="Assets\_Project\Scripts\Managers\PlayerManager.cs" />
     <Compile Include="Assets\_Project\Scripts\Managers\CardManager.cs" />
     <Compile Include="Assets\_Project\Scripts\SpectrobeCard.cs" />
+    <Compile Include="Assets\_Project\Scripts\Scriptable cards\SpectrobeData.cs" />
+    <Compile Include="Assets\_Project\Scripts\Scriptable cards\MineralData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
