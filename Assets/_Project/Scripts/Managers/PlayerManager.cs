@@ -48,6 +48,7 @@ namespace SpectrobesTCG
                 deckZone.RemoveCard(card);
                 handZone.AddCard(card, true);
                 card.AddPlayerVisibilityId(id);
+                card.canInteract = true;
                 yield return new WaitForSeconds(waitTime);
             }
         }
@@ -57,6 +58,7 @@ namespace SpectrobesTCG
             for (int i = 0; i < amount; i++)
             {
                 Card card = deckZone.CardsList[deckZone.CardsList.Count - 1];
+                card.canInteract = true;
                 deckZone.RemoveCard(card);
                 discardZone.AddCard(card);
             }
@@ -67,6 +69,7 @@ namespace SpectrobesTCG
             for (int i = 0; i < amount; i++)
             {
                 Card card = handZone.CardsList[handZone.CardsList.Count - 1];
+                card.canInteract = true;
                 handZone.RemoveCard(card);
                 discardZone.AddCard(card);
             }
@@ -87,6 +90,7 @@ namespace SpectrobesTCG
             for (int i = 0; i < 60; i++)
             {
                 Card card = GameManager.Instantiate(cardManagerInstance.spectrobeCardPrefab, deckTransform);
+                card.name += $"_{i}";
                 card.Initialize(id);
                 deckZone.AddCard(card);
             }
