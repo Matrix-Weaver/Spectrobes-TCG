@@ -87,6 +87,7 @@ namespace SpectrobesTCG
             for (int i = 0; i < 60; i++)
             {
                 Card card = GameManager.Instantiate(cardManagerInstance.spectrobeCardPrefab, deckTransform);
+                card.name += $"_{i}";
                 card.Initialize(id);
                 deckZone.AddCard(card);
             }
