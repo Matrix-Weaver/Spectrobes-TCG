@@ -9,20 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2e96d007ade89c47b3bbca1dc209824, type: 3}
+  m_Script: {fileID: 11500000, guid: c09a7cc6c85f12e429673f12d751f4a0, type: 3}
   m_Name: Mesa
   m_EditorClassIdentifier: 
-  id: 43
+  ID: 0
   expansionID: 
-  name: 
+  spectrobeName: 
   mineralCost: 0
-  hp: 0
-  attack: 0
-  searchLevel: 0
   elementType: 0
-  cardType: 0
-  cardFrontSprite: {fileID: 0}
   cardArt: {fileID: 0}
-  cardBackSprite: {fileID: 0}
-  chAttackName: 
-  chAttackDescription: 
+  AbilityName: 
+  AbilityDescription: 

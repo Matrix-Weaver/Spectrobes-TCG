@@ -369,9 +369,9 @@ GameObject:
   - component: {fileID: 3857644664711540515}
   - component: {fileID: 1760127873592715553}
   - component: {fileID: 5039148999398063673}
-  - component: {fileID: 6399356410963991022}
+  - component: {fileID: 1056562359509111243}
   m_Layer: 0
-  m_Name: AdultSpectrobePrefab
+  m_Name: SpectrobeCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -440,7 +440,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &5039148999398063673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -458,7 +458,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &6399356410963991022
+--- !u!114 &1056562359509111243
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -467,17 +467,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 4362206545729512500}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7932149a132854284f9d644be2ec7c, type: 3}
+  m_Script: {fileID: 11500000, guid: 370c763573b36dc49956d8111a8511d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpectrobeData: {fileID: 11400000, guid: 566e04a34db390d41a610cccd41f185e, type: 2}
-  spectrobeName: {fileID: 0}
-  hp: {fileID: 0}
-  attack: {fileID: 0}
-  artwork: {fileID: 5933012200726963829}
-  frontArt: {fileID: 0}
-  chAttackName: {fileID: 0}
-  chAttackDesc: {fileID: 0}
+  type: 0
+  form: 0
+  property: 0
+  attack: 0
+  hp: 0
 --- !u!1 &4509315166996878054
 GameObject:
   m_ObjectHideFlags: 0
