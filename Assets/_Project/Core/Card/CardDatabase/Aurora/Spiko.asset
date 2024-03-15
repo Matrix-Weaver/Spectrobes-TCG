@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   expansionID: 
-  spectrobeName: 
+  spectrobeName: Spiko
   mineralCost: 0
   elementType: 0
   cardArt: {fileID: 0}
-  AbilityName: 
-  AbilityDescription: 
+  typeSprite: {fileID: -5267938533852694876, guid: 12494aedf279a794e9506f85e8b44a1b, type: 3}
+  AbilityName: Placeholder
+  AbilityDescription: Placeholder

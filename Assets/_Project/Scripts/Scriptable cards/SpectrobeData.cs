@@ -28,6 +28,7 @@ public class SpectrobeData : ScriptableObject
     }
     [field: SerializeField]
     public Type cardType;
+    public Sprite typeSprite;
     public Sprite cardFrontSprite;
     public Sprite cardArt;
     public string chAttackName;

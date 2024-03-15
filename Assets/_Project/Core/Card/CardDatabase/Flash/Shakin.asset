@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   expansionID: 
-  spectrobeName: 
+  spectrobeName: Shakin
   mineralCost: 0
-  elementType: 0
-  cardArt: {fileID: 0}
-  AbilityName: 
-  AbilityDescription: 
+  elementType: 2
+  cardArt: {fileID: 7432778795381297020, guid: 4ca52c4b88cdb524b99380795ac3c53d, type: 3}
+  typeSprite: {fileID: -6578892327267529403, guid: a90e624d18145f14484619757cfefe11, type: 3}
+  AbilityName: Placeholder
+  AbilityDescription: Placeholder

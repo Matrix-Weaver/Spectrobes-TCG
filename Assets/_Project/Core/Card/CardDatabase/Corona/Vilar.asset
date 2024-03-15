@@ -18,5 +18,6 @@ MonoBehaviour:
   mineralCost: 0
   elementType: 1
   cardArt: {fileID: 0}
-  AbilityName: 
-  AbilityDescription: 
+  typeSprite: {fileID: -603989586284366352, guid: 8db8e87c3b0a41942a40c7abf23a09f7, type: 3}
+  AbilityName: Placeholder
+  AbilityDescription: Placeholder

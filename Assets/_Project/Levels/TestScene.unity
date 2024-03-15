@@ -618,7 +618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08d4cacf2864afa42a7501e8ae0219c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spectrobeCardPrefab: {fileID: 1056562359509111243, guid: a9c6883fa1ff85045ad37021b7f7136a, type: 3}
+  spectrobeCardPrefab: {fileID: 7638282838679969195, guid: a40d4ac7a735c434293b6e78b9d6ff69, type: 3}
   propertyIcons:
   - {fileID: -5267938533852694876, guid: 12494aedf279a794e9506f85e8b44a1b, type: 3}
   - {fileID: -603989586284366352, guid: 8db8e87c3b0a41942a40c7abf23a09f7, type: 3}

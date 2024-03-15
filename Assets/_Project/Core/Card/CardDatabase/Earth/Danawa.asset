@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   expansionID: 
-  spectrobeName: 
+  spectrobeName: Danawa
   mineralCost: 0
-  elementType: 0
+  elementType: 4
   cardArt: {fileID: 0}
-  AbilityName: 
-  AbilityDescription: 
+  typeSprite: {fileID: 0}
+  AbilityName: Placeholder
+  AbilityDescription: Placeholder

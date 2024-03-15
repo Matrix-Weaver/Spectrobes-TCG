@@ -20,6 +20,7 @@ public class ChildData : ScriptableObject
     [field: SerializeField]
     public Element elementType;
     public Sprite cardArt;
+    public Sprite typeSprite;
     public string AbilityName;
     public string AbilityDescription;
     private void OnValidate()

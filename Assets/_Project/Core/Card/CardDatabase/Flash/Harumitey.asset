@@ -12,17 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2e96d007ade89c47b3bbca1dc209824, type: 3}
   m_Name: Harumitey
   m_EditorClassIdentifier: 
-  id: 9
+  ID: 0
   expansionID: 
-  name: 
+  spectrobeName: Harumitey
   mineralCost: 0
   hp: 0
   attack: 0
-  searchLevel: 0
-  elementType: 0
-  cardType: 0
-  cardFrontSprite: {fileID: 0}
+  elementType: 2
+  cardType: 1
+  typeSprite: {fileID: -6578892327267529403, guid: a90e624d18145f14484619757cfefe11, type: 3}
+  cardFrontSprite: {fileID: 3730628873745198685, guid: 05e9a57d9f7de0e43a9a010778998d2d, type: 3}
   cardArt: {fileID: 0}
-  cardBackSprite: {fileID: 0}
-  chAttackName: 
-  chAttackDescription: 
+  chAttackName: Placeholder
+  chAttackDescription: Placeholder
