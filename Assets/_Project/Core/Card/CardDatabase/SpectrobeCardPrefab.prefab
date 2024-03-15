@@ -470,8 +470,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 370c763573b36dc49956d8111a8511d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canInteract: 0
   type: 0
-  spectrobeData: {fileID: 11400000, guid: 566e04a34db390d41a610cccd41f185e, type: 2}
+  spectrobeData: {fileID: 11400000, guid: 71f1dc29d9dce714ea5fc4e9982aea3d, type: 2}
   spectrobeName: {fileID: 7099116487298964983}
   hpText: {fileID: 1009253517097220311}
   attackText: {fileID: 7053543307223036113}

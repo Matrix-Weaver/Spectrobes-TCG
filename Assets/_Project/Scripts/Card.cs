@@ -6,8 +6,6 @@ namespace SpectrobesTCG
 {
     public class Card : Interactive
     {
-        public CardManager.CardType type;
-
         private readonly string cardFrontString = "Scaler/CardBackSprite/CardFront";
         private CardManager cardManagerInstance;
         private GameManager gameManagerInstance;

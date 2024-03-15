@@ -28,11 +28,12 @@ public class SpectrobeData : ScriptableObject
     }
     [field: SerializeField]
     public Type cardType;
-    public Sprite typeSprite;
-    public Sprite cardFrontSprite;
-    public Sprite cardArt;
+    public Sprite type;
+    public Sprite artwork;
     public string chAttackName;
     public string chAttackDescription;
+
+    //Sets the name of the SO automatically asigning it the same name as the asset
     private void OnValidate()
     {
         spectrobeName = name;

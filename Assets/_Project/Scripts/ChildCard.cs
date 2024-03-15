@@ -12,7 +12,7 @@ namespace SpectrobesTCG
         public ChildData childData;
         public TMP_Text spectrobeName;
         public Image artwork;
-        public Image typeSprite;
+        public Image type;
         public TMP_Text abilityName;
         public TMP_Text abilityDesc;
 
@@ -22,8 +22,8 @@ namespace SpectrobesTCG
             spectrobeName.text = childData.spectrobeName;
             abilityName.text = childData.AbilityName;
             abilityDesc.text = childData.AbilityDescription;
-            artwork.sprite = childData.cardArt;
-            typeSprite.sprite = childData.typeSprite;
+            artwork.sprite = childData.artwork;
+            type.sprite = childData.type;
         }
 
         // Update is called once per frame
