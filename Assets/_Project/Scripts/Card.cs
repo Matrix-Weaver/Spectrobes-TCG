@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace SpectrobesTCG
 {
-    public class Card : MonoBehaviour
+    public class Card : Interactive
     {
         public CardManager.CardType type;
 
@@ -74,5 +74,25 @@ namespace SpectrobesTCG
         public void ShowCardFront() { transform.Find(cardFrontString).gameObject.SetActive(true); }
         public void ShowCardBack() { transform.Find(cardFrontString)?.gameObject.SetActive(false); }
         public void SetCanvasOrderInLayer(int value) { GetComponent<Canvas>().sortingOrder = value; }
+
+        public override void OnActive()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public override void OnClick()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public override void OnDrop()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public override void OnHover()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

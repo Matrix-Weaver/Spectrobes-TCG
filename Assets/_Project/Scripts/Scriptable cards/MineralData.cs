@@ -7,7 +7,8 @@ public class MineralData : ScriptableObject
 {
     public int id;
     public string expansionID;
-    public string mineralName;
+    public string cardName;
+
     public enum Element
     {
         Aurora,
