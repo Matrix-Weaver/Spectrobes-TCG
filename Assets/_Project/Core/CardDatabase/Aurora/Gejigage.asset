@@ -21,6 +21,6 @@ MonoBehaviour:
   elementType: 0
   cardType: 1
   type: {fileID: -5267938533852694876, guid: 12494aedf279a794e9506f85e8b44a1b, type: 3}
-  artworkPath: F8cCeojXwAAK4zD
+  artworkPath: Spectrobes/F8cCeojXwAAK4zD
   chAttackName: Placeholder
   chAttackDescription: Placeholder

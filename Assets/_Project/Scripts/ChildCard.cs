@@ -13,6 +13,8 @@ namespace SpectrobesTCG
         public TMP_Text spectrobeName;
         public Image artwork;
         public Image type;
+        public Image frontCard;
+        private string childType;
         public TMP_Text abilityName;
         public TMP_Text abilityDesc;
 
@@ -20,10 +22,13 @@ namespace SpectrobesTCG
         void Start()
         {
             spectrobeName.text = childData.spectrobeName;
+            childType = childData.elementType.ToString();
+            string typePath = "Icons/" + childType;
             abilityName.text = childData.AbilityName;
             abilityDesc.text = childData.AbilityDescription;
+            type.sprite = Resources.Load<Sprite>(typePath);
+            frontCard.sprite = Resources.Load<Sprite>("Card/Card_Front_Child");
             artwork.sprite = Resources.Load<Sprite>(childData.artworkPath);
-            type.sprite = childData.type;
         }
 
         // Update is called once per frame

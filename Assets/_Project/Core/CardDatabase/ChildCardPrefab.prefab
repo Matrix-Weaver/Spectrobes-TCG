@@ -150,11 +150,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d72615f3efcf8c41970dd5ed8b5c099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  canInteract: 0
   childData: {fileID: 11400000, guid: d9bf8c9c775d9e5448fbce5868db1fb6, type: 2}
   spectrobeName: {fileID: 5157321942017182394}
   artwork: {fileID: 8593174886433845560}
-  typeSprite: {fileID: 6127254545606277030}
+  type: {fileID: 6127254545606277030}
+  frontCard: {fileID: 4643735577393796228}
   abilityName: {fileID: 3042335022692287194}
   abilityDesc: {fileID: 7344424432614674473}
 --- !u!1 &1982448527110866347

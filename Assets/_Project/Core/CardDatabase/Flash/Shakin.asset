@@ -17,7 +17,7 @@ MonoBehaviour:
   spectrobeName: Shakin
   mineralCost: 0
   elementType: 2
-  artworkPath: Shakin
+  artworkPath: Spectrobes/Shakin
   type: {fileID: -6578892327267529403, guid: a90e624d18145f14484619757cfefe11, type: 3}
   AbilityName: Placeholder
   AbilityDescription: Placeholder

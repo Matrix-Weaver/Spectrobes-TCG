@@ -18,18 +18,23 @@ namespace SpectrobesTCG
         public TMP_Text attackText;
         public Image artwork;
         public Image type;
+        public Image frontCard;
         public TMP_Text chAttackName;
         public TMP_Text chAttackDesc;
+        private string spectrobeType;
         public bool isEvolved = false;
 
         // Start is called before the first frame update
         void Start()
         {
             spectrobeName.text = spectrobeData.spectrobeName;
+            spectrobeType = spectrobeData.elementType.ToString();
+            string typePath = "Icons/" + spectrobeType;
             hpText.text = spectrobeData.hp.ToString();
             attackText.text = spectrobeData.attack.ToString();
             artwork.sprite = Resources.Load<Sprite>(spectrobeData.artworkPath);
-            type.sprite = spectrobeData.type;
+            frontCard.sprite = Resources.Load<Sprite>("Card/Card_Front_Adult");
+            type.sprite = Resources.Load<Sprite>(typePath);
             chAttackName.text = spectrobeData.chAttackName;
             chAttackDesc.text = spectrobeData.chAttackDescription;
         }
@@ -40,8 +45,8 @@ namespace SpectrobesTCG
             hpText.text = evolvedData.hp.ToString();
             attackText.text = evolvedData.attack.ToString();
             artwork.sprite = Resources.Load<Sprite>(evolvedData.artworkPath);
-            type.sprite = evolvedData.type;
             chAttackName.text = evolvedData.chAttackName;
+            frontCard.sprite = Resources.Load<Sprite>("Card/Card_Front_Evolved");
             chAttackDesc.text = evolvedData.chAttackDescription;
         }
 

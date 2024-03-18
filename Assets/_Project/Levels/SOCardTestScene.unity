@@ -432,6 +432,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChildCardPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 5157321942017182394, guid: ed3e01c83d9a7464f8cb6e83053c42ce, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157321942017182394, guid: ed3e01c83d9a7464f8cb6e83053c42ce, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157321942017182394, guid: ed3e01c83d9a7464f8cb6e83053c42ce, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157321942017182394, guid: ed3e01c83d9a7464f8cb6e83053c42ce, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
+      objectReference: {fileID: 0}
     - target: {fileID: 7097018075516697284, guid: ed3e01c83d9a7464f8cb6e83053c42ce, type: 3}
       propertyPath: type
       value: 

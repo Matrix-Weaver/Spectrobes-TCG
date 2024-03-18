@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewCard", menuName = "New Card/New Spectrobe Card", order = 1)]
@@ -28,7 +29,6 @@ public class SpectrobeData : ScriptableObject
     }
     [field: SerializeField]
     public Type cardType;
-    public Sprite type;
     public string artworkPath;
     public string chAttackName;
     public string chAttackDescription;

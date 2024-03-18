@@ -471,16 +471,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canInteract: 0
-  type: 0
   spectrobeData: {fileID: 11400000, guid: 71f1dc29d9dce714ea5fc4e9982aea3d, type: 2}
+  evolvedData: {fileID: 0}
   spectrobeName: {fileID: 7099116487298964983}
   hpText: {fileID: 1009253517097220311}
   attackText: {fileID: 7053543307223036113}
   artwork: {fileID: 5933012200726963829}
-  frontArt: {fileID: 7306669046898312137}
-  typeSprite: {fileID: 8079244039592059115}
+  type: {fileID: 8079244039592059115}
+  frontCard: {fileID: 7306669046898312137}
   chAttackName: {fileID: 1094330436351169943}
   chAttackDesc: {fileID: 4682616843891066724}
+  isEvolved: 0
 --- !u!1 &4509315166996878054
 GameObject:
   m_ObjectHideFlags: 0
