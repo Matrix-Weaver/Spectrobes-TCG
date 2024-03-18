@@ -50,21 +50,13 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 5211932279129384656, guid: 2ed7abd03c1577044bbd664dc2f65648, type: 3}
-  - {fileID: 7432778795381297020, guid: 4ca52c4b88cdb524b99380795ac3c53d, type: 3}
   - {fileID: -603989586284366352, guid: 8db8e87c3b0a41942a40c7abf23a09f7, type: 3}
-  - {fileID: 4181375740416486310, guid: 32eb91ec31029d64896fa95d244a673b, type: 3}
   - {fileID: -6578892327267529403, guid: a90e624d18145f14484619757cfefe11, type: 3}
   - {fileID: -5267938533852694876, guid: 12494aedf279a794e9506f85e8b44a1b, type: 3}
-  - {fileID: 5772521382871447196, guid: c067f87f9600392439076bc848274469, type: 3}
   m_PackedSpriteNamesToIndex:
-  - F8cCeojXwAAK4zD_0
-  - F4prwF_W0AAREfY_0
   - Corona_0
-  - F_jbRxKW4AAdGj6_0
   - Flash_0
   - Aurora_0
-  - export_6_0
   m_RenderDataMap: {}
   m_Tag: Card Art
   m_IsVariant: 0

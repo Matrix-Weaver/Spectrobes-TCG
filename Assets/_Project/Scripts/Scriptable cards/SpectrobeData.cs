@@ -29,7 +29,7 @@ public class SpectrobeData : ScriptableObject
     [field: SerializeField]
     public Type cardType;
     public Sprite type;
-    public Sprite artwork;
+    public string artworkPath;
     public string chAttackName;
     public string chAttackDescription;
 

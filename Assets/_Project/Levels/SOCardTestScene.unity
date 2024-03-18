@@ -206,6 +206,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &545934553 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6127254545606277030, guid: ed3e01c83d9a7464f8cb6e83053c42ce, type: 3}
+  m_PrefabInstance: {fileID: 845542225}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &650620342 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8079244039592059115, guid: a40d4ac7a735c434293b6e78b9d6ff69, type: 3}
@@ -313,6 +324,10 @@ PrefabInstance:
       value: SpectrobeCardPrefab
       objectReference: {fileID: 0}
     - target: {fileID: 7638282838679969195, guid: a40d4ac7a735c434293b6e78b9d6ff69, type: 3}
+      propertyPath: type
+      value: 
+      objectReference: {fileID: 650620342}
+    - target: {fileID: 7638282838679969195, guid: a40d4ac7a735c434293b6e78b9d6ff69, type: 3}
       propertyPath: typeSprite
       value: 
       objectReference: {fileID: 650620342}
@@ -417,6 +432,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChildCardPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 7097018075516697284, guid: ed3e01c83d9a7464f8cb6e83053c42ce, type: 3}
+      propertyPath: type
+      value: 
+      objectReference: {fileID: 545934553}
     - target: {fileID: 8593174886433845560, guid: ed3e01c83d9a7464f8cb6e83053c42ce, type: 3}
       propertyPath: m_Sprite
       value: 

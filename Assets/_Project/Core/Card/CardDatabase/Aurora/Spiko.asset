@@ -17,7 +17,7 @@ MonoBehaviour:
   spectrobeName: Spiko
   mineralCost: 0
   elementType: 0
-  cardArt: {fileID: 0}
-  typeSprite: {fileID: -5267938533852694876, guid: 12494aedf279a794e9506f85e8b44a1b, type: 3}
+  artworkPath: 
+  type: {fileID: -5267938533852694876, guid: 12494aedf279a794e9506f85e8b44a1b, type: 3}
   AbilityName: Placeholder
   AbilityDescription: Placeholder

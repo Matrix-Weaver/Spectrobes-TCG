@@ -17,7 +17,7 @@ MonoBehaviour:
   spectrobeName: Grilda
   mineralCost: 0
   elementType: 2
-  cardArt: {fileID: 0}
-  typeSprite: {fileID: -6578892327267529403, guid: a90e624d18145f14484619757cfefe11, type: 3}
+  artworkPath: 
+  type: {fileID: -6578892327267529403, guid: a90e624d18145f14484619757cfefe11, type: 3}
   AbilityName: Placeholder
   AbilityDescription: Placeholder

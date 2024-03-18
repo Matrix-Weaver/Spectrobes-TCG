@@ -28,7 +28,7 @@ namespace SpectrobesTCG
             spectrobeName.text = spectrobeData.spectrobeName;
             hpText.text = spectrobeData.hp.ToString();
             attackText.text = spectrobeData.attack.ToString();
-            artwork.sprite = spectrobeData.artwork;
+            artwork.sprite = Resources.Load<Sprite>(spectrobeData.artworkPath);
             type.sprite = spectrobeData.type;
             chAttackName.text = spectrobeData.chAttackName;
             chAttackDesc.text = spectrobeData.chAttackDescription;
@@ -39,7 +39,7 @@ namespace SpectrobesTCG
             spectrobeName.text = evolvedData.spectrobeName;
             hpText.text = evolvedData.hp.ToString();
             attackText.text = evolvedData.attack.ToString();
-            artwork.sprite = evolvedData.artwork;
+            artwork.sprite = Resources.Load<Sprite>(evolvedData.artworkPath);
             type.sprite = evolvedData.type;
             chAttackName.text = evolvedData.chAttackName;
             chAttackDesc.text = evolvedData.chAttackDescription;

@@ -20,8 +20,7 @@ MonoBehaviour:
   attack: 0
   elementType: 2
   cardType: 1
-  typeSprite: {fileID: -6578892327267529403, guid: a90e624d18145f14484619757cfefe11, type: 3}
-  cardFrontSprite: {fileID: 3730628873745198685, guid: 05e9a57d9f7de0e43a9a010778998d2d, type: 3}
-  cardArt: {fileID: 0}
+  type: {fileID: -6578892327267529403, guid: a90e624d18145f14484619757cfefe11, type: 3}
+  artworkPath: 
   chAttackName: Placeholder
   chAttackDescription: Placeholder

@@ -22,7 +22,7 @@ namespace SpectrobesTCG
             spectrobeName.text = childData.spectrobeName;
             abilityName.text = childData.AbilityName;
             abilityDesc.text = childData.AbilityDescription;
-            artwork.sprite = childData.artwork;
+            artwork.sprite = Resources.Load<Sprite>(childData.artworkPath);
             type.sprite = childData.type;
         }
 
