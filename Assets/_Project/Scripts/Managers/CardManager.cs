@@ -36,12 +36,5 @@ namespace SpectrobesTCG
             child,
             evolved,
         }
-
-        public enum CardType
-        {
-            spectrobe,
-            weapon,
-            mineral,
-        }
     }
 }

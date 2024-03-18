@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewCard", menuName = "New Card/New Mineral Card", order = 2)]
+[CreateAssetMenu(fileName = "NewCard", menuName = "New Card/New Mineral Card", order = 3)]
 public class MineralData : ScriptableObject
 {
     public int id;
     public string expansionID;
     public string cardName;
+
     public enum Element
     {
         Aurora,
@@ -16,7 +17,5 @@ public class MineralData : ScriptableObject
     }
     [field: SerializeField]
     public Element elementType;
-    public Sprite cardFrontSprite;
     public Sprite cardArt;
-    public Sprite cardBackSprite;
 }
